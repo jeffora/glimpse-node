@@ -1,0 +1,51 @@
+{
+    "method" : "Get",  
+    "browser" : "",
+    "clientId" : "Chrome 22.0",
+    "dateTime" : "",
+    "requestId" : "1234",
+    "isAjax" : false,
+    "uri" : "/Help/Feature",  
+    "data" : {
+        "Session": { 
+            "name" : "Session", 
+            "data" : [
+                [ "Key", "Value", "Type" ],
+                [ "CartId", "2dc2f24f-5816-4e8e-bc70-2438ce628be8", "string" ],
+                [ "__ControllerTempData", { "Test":"A bit of temp" }, "System.Collections.Generic.Dictionary<string,object>" ]
+            ] 
+        },
+        "glimpse_timeline" : { 
+            "name" : "Timeline", 
+            "data" : {
+                "events" : [
+                    { "category" :"ASPNET", "startTime" :"", "startPoint":0, "duration": 0, "title": "Request Begin", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"ASPNET", "startTime" :"", "startPoint":2, "duration": 11, "title": "Http Handlers", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"ASPNET", "startTime" :"", "startPoint":15, "duration": 0, "title": "Process Pipeline", "subText": "", "pluginContextId": "", "plugin": "", "details": { "Hello World" :"This is data", "Jester" :"Hello there" } },
+                    { "category" :"Database", "startTime" :"", "startPoint":20, "duration": 0, "title": "Connection", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"MVC", "startTime" :"", "startPoint":25, "duration": 15, "title": "Action", "subText": "Person/Add", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Database", "startTime" :"", "startPoint":55, "duration": 0, "title": "Command", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"MVC", "startTime" :"", "startPoint":60, "duration": 20, "title": "Filter", "subText": "Authorization", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"MVC", "startTime" :"", "startPoint":75, "duration": 55, "title": "Filter", "subText": "Validation", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Database", "startTime" :"", "startPoint":80, "duration": 45, "title": "Transaction", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Trace", "startTime" :"", "startPoint":100, "duration": 6, "title": "Logon", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Routes", "startTime" :"", "startPoint":134, "duration": 4, "title": "Resolved Routes", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Trace", "startTime" :"", "startPoint":138, "duration": 0, "title": "Registered", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Trace", "startTime" :"", "startPoint":142, "duration": 0, "title": "Socket Open", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Routes", "startTime" :"", "startPoint":143, "duration": 30, "title": "Partial View", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Database", "startTime" :"", "startPoint":150, "duration": 0, "title": "Command", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"Routes", "startTime" :"", "startPoint":152, "duration": 8, "title": "Partial View", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category" :"MVC", "startTime" :"", "startPoint":160, "duration": 36, "title": "View", "subText": "", "pluginContextId": "", "plugin": "", "details": {} },
+                    { "category": "Trace", "startTime": "", "startPoint":195, "duration": 29, "title": "Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow Process Workflow", "subText": "", "pluginContextId": "", "plugin": "", "details": {} }
+                ],
+            "category" :{
+                "ASPNET" : { "eventColor" : "#FD4545", "eventColorHighlight" : "#DD3131" },
+                "Database" : { "eventColor" : "#AF78DD", "eventColorHighlight" : "#823BBE" },
+                "MVC" : { "eventColor" : "#72A3E4", "eventColorHighlight" : "#5087CF" },
+                "Trace" : { "eventColor" : "#FDBF45", "eventColorHighlight" : "#DDA431" },
+                "Routes" : { "eventColor" : "#10E309", "eventColorHighlight" : "#0EC41D" }
+            },
+            "duration": "230"
+        } }
+    }
+}

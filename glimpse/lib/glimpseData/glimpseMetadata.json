@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "resources" : { 
+        "glimpse_request" : "Request?requestId={requestId}&version={version}{&Callback}",
+        "glimpse_ajax" : "Ajax?parentRequestId={parentRequestId}&version={version}{&Callback}",
+        "glimpse_history" : "History?version={version}{&top}{&Callback}",
+        "glimpse_tab" : "Tab?requestId={requestId}&pluginKey={pluginKey}&version={version}{&Callback}",
+        "glimpse_paging" : "Pager?key={key}&pageIndex={pageIndex}&version={version}{&Callback}", 
+        "glimpse_config" : "Config?version={version}",
+        "glimpse_logo" : "_logo.png?version={version}",
+        "glimpse_sprite" : "_sprite.png?version={version}",
+        "glimpse_popup" : "Client-Popup.html?n=glimpse_popup&version={version}&requestId={requestId}", 
+        "glimpse_version_check" : "http://localhost:28785/api/release/check?callback=?&Glimpse=0.79&Glimpse.Elmah=0.9.2&stamp={stamp}"
+    },
+    "plugins": {
+        "glimpse_timeline":{"documentationUri":"http://getGlimpse.com/Help/Plugin/Timeline"},
+        "Session":{"documentationUri":"http://getGlimpse.com/Help/Plugin/Session"}
+    } 
+}
