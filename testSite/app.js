@@ -16,4 +16,10 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
+app.get('/json', function (req, res) {
+    res.json({
+        someData: 'hi'
+    });
+});
+
 app.listen(4000);
